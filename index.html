@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Styling and JavaScript Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced Styling & JavaScript Project</h1>
+    <nav>
+      <a href="#responsive">Responsive Design</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#api">API Data</a>
+    </nav>
+  </header>
+
+  <!-- 1. Responsive Layout -->
+  <section id="responsive">
+    <h2>Responsive Grid Layout</h2>
+    <div class="grid-container">
+      <div class="grid-item">Item 1</div>
+      <div class="grid-item">Item 2</div>
+      <div class="grid-item">Item 3</div>
+      <div class="grid-item">Item 4</div>
+    </div>
+  </section>
+
+  <!-- 2. Interactive Quiz -->
+  <section id="quiz">
+    <h2>Interactive Quiz</h2>
+    <div id="quiz-container"></div>
+    <button onclick="submitQuiz()">Submit Quiz</button>
+    <p id="quizResult"></p>
+  </section>
+
+  <!-- 3. Fetch API Example -->
+  <section id="api">
+    <h2>Joke API (Fetch Example)</h2>
+    <button onclick="getJoke()">Get a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
